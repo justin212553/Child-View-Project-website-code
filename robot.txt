@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: /about.html /index-house.html /hero-house14k.html /hero-house100k.html /index-apartment.html /hero-apartment14k.html /hero-apartment100k.html
+Disallow: /about.html /index-house.html /hero-house14k.html /hero-house100k.html /index-house-light.html /hero-house-Blue.html /hero-house-Indoor.html /hero-house-Kiara.html /hero-house-Mosaic.html /hero-house-Ninomaru.html /hero-house-Royal.html /hero-house-Small.html /hero-house-Venice.html /hero-house-Whipple.html /index-apartment.html /hero-apartment14k.html /hero-apartment100k.html
 Allow: /index.html
