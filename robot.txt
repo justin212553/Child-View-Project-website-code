@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /about.html /index-house.html /hero-house14k.html /hero-house100k.html /index-apartment.html /hero-apartment14k.html /hero-apartment100k.html
+Allow: /index.html

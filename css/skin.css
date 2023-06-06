@@ -2264,7 +2264,7 @@ h3.project-title{
 	line-height: 1.6;
 }
 .project-attribute .project-label{
-	min-width: 11rem;
+	min-width: 20rem;
 	font-size: 1.3rem;
 	font-weight: 700;
 	text-transform: none;
