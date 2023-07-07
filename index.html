@@ -13,6 +13,7 @@
 
 	<!-- Font -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CMontserrat:400,700%7CPlayfair+Display:400,400italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
 	
 	<!-- Css -->
 	<link rel="stylesheet" href="css/core.min.css" />
@@ -24,6 +25,81 @@
 
 </head>
 <body class="shop home-page">
+
+	<!-- Side Navigation Menu -->
+	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in">
+		<div class="side-navigation-scroll-pane">
+			<div class="side-navigation-inner">
+				<div class="side-navigation-header">
+					<div class="navigation-hide side-nav-hide">
+						<a href="#">
+							<span class="icon-cancel medium"></span>
+						</a>
+					</div>
+				</div>
+				<nav class="side-navigation">
+					<ul>
+						<li>
+							<a href="about.html" class="contains-sub-menu">About Child-View</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="about.html">Overview</a>
+								</li>
+								<li>
+									<a href="about.html#Publications">Publications</a>
+								</li>
+								<li>
+									<a href="about.html#Participants">Who We Are</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="document-0.html" class="contains-sub-menu">Build Your Own Dataset</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="index.html">0. Intro</a>
+								</li>
+								<li>
+									<a href="index.html">1. Setup TDW</a>
+								</li>
+								<li>
+									<a href="index.html">2. Core Concepts</a>
+								</li>
+								<li>
+									<a href="index.html">3. Scene Setup</a>
+								</li>
+								<li>
+									<a href="index.html">4. Avatar Setup</a>
+								</li>
+								<li>
+									<a href="index.html">5. Generating Dataset</a>
+								</li>
+								<li>
+							</ul>
+						</li>
+						<li>
+							<a href="index.html#demos" class="contains-sub-menu">Datasets</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="index-house.html">Archviz House</a>
+								</li>
+								<li>
+									<a href="index-house-light.html">Archviz House with Lighting Conditions</a>
+								</li>
+								<li>
+									<a href="index-apartment.html">Apartment</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<div class="side-navigation-footer">
+					<p class="copyright no-margin-bottom">&copy; The Pennsylvania State University. All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- Side Navigation Menu End -->
 
 	<div class="wrapper">
 		<div class="wrapper-inner">
@@ -39,10 +115,20 @@
 									<a href="index.html"><img src="images/logo.png" alt="Child-View Logo" /></a>
 								</div>
 							</div>
+							<nav class="navigation nav-block secondary-navigation nav-right">
+								<ul>
+									<li class="aux-navigation hide">
+										<!-- Aux Navigation -->
+										<a href="#" class="navigation-show side-nav-show nav-icon">
+											<span class="icon-menu"></span>
+										</a>
+									</li>
+								</ul>
+							</nav>
 							<nav class="navigation nav-block primary-navigation nav-right">
 								<ul>
 									<li>
-										<a href="about.html">About Child-View</a>
+										<a href="about.html" style="font-size: 10pt;">About Child-View</a>
 										<ul class="sub-menu">
 											<li>
 												<a href="about.html">Overview</a>
@@ -56,7 +142,7 @@
 										</ul>
 									</li>
 									<li>
-										<a href="document-0.html">Build Your Own Dataset</a>
+										<a href="document-0.html" style="font-size: 10pt;">Build Your Own Dataset</a>
 										<ul class="sub-menu">
 											<li>
 												<a href="index.html">0. Intro</a>
@@ -80,7 +166,7 @@
 										</ul>
 									</li>
 									<li class="contains-mega-sub-menu">
-										<a href="index.html#demos">Datasets</a>
+										<a href="index.html#demos" style="font-size: 10pt;">Datasets</a>
 										<ul class="mega-sub-menu row">
 											<li class="column width-4">
 												<a href="index-house.html">Archviz House</a>
@@ -205,25 +291,61 @@
 				<!-- Feature Section 2 End -->
 
 				<!-- Feature Column Section -->
-				<div id="discover" class="section-block no-padding-bottom bkg-grey-ultralight">
+				<div id="discover" class="section-block replicable-content bkg-grey-ultralight">
 					<div class="row">
 						<div class="column width-8 offset-2 center">
-							<h2 class="mb-30">The Benefits of Child-View </h2>
-							<p class="lead font-alt-2 mb-80">Environment is treated as a datasource.</p>
+							<h2 class="mb-50">The Benefits of Child-View</h2>
 						</div>
 					</div>
+					<div class="row flex">
+						<div class="column width-4">
+							<div class="box small bkg-grey-ultralight">
+								<div class="feature-column small mb-50 left">
+									<span class="feature-icon color-theme material-icons">psychology</span>
+									<div class="feature-text">
+										<h4>Inspired by Principles of Cognitive Development </h4>
+										<p>Better comparison to infant visual learning </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column width-4">
+							<div class="box small bkg-grey-ultralight">
+								<div class="feature-column small left">
+									<span class="feature-icon color-theme material-icons">post_add</span>
+									<div class="feature-text">
+										<h4>Environment is treated as an additional Datasource</h4>
+										<p>Improved self-supervised visual learning even with smaller image databases.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column width-4">
+							<div class="box small bkg-grey-ultralight">
+								<div class="feature-column small mb-50 left">
+									<span class="feature-icon color-theme material-icons">announcement</span>
+									<div class="feature-text">
+										<h4>Increased accessibility for visual deep learning for early career researchers </h4>
+										<p>*Preparing...</p>
+									</div>
+								</div>
+							</div>
+						</div>
 				</div>
 				<!-- Feature Column Section End -->
 
 				<!-- Demo Grid -->
-				<div id="demos" class="section-block no-padding-bottom bkg-grey-ultralight">
+				<div id="demos" class="section-block no-padding-bottom bkg-white">
 					<div class="row">
 						<div class="column width-12">
-							<h3 class="mb-60">Environments</h3>
+							<h3 class="mb-10">Environments</h3>
+							<div class="mb-30">Child-view is comprised of three image databases, an apartment environment, a house environment, and a house environment under 9 distinct lighting conditions.<br/>
+								Each environment is furnished with a set of objects, which were sourced from a library of 3D objects using a JSON file.<br/>
+								These databases are comprises of 14,000+ (14k) or 100,000+ (100k) images within the database. </div>	
 						</div>
 					</div>
 				</div>
-				<div id="demo-grid" class="section-block grid-container fade-in-progressively no-padding-top no-padding-bottom bkg-grey-ultralight" data-layout-mode="masonry" data-animate-filter-duration="700" data-animate-resize data-animate-resize-duration="0">
+				<div id="demo-grid" class="section-block grid-container fade-in-progressively no-padding-top no-padding-bottom bkg-white" data-layout-mode="masonry" data-animate-filter-duration="700" data-animate-resize data-animate-resize-duration="0">
 					<div class="row">
 						<div class="column width-12">
 							<div class="row grid content-grid-3">
@@ -276,14 +398,14 @@
 				<!-- Demo Grid End -->
 
 				<!-- Hero Grid: House -->
-				<div id="heros" class="section-block no-padding-bottom bkg-grey-ultralight">
+				<div id="heros" class="section-block no-padding-bottom bkg-white">
 					<div class="row">
 						<div class="column width-12">
 							<h3 class="mb-60">Datasets: Archviz House</h3>
 						</div>
 					</div>
 				</div>
-				<div class="section-block grid-container fade-in-progressively no-padding-top no-padding-bottom bkg-grey-ultralight" data-layout-mode="masonry" data-animate-filter-duration="700" data-animate-resize data-animate-resize-duration="0">
+				<div class="section-block grid-container fade-in-progressively no-padding-top no-padding-bottom bkg-white" data-layout-mode="masonry" data-animate-filter-duration="700" data-animate-resize data-animate-resize-duration="0">
 					<div class="row">
 						<div class="column width-12">
 							<div class="row grid content-grid-3">
@@ -323,14 +445,14 @@
 				<!-- Hero Grid: House -->
 
 				<!-- Hero Grid: House Skybox -->
-				<div id="heros" class="section-block no-padding-bottom bkg-grey-ultralight">
+				<div id="heros" class="section-block no-padding-bottom bkg-white">
 					<div class="row">
 						<div class="column width-12">
 							<h3 class="mb-60">Datasets: Archviz House with Different Lighting Conditions</h3>
 						</div>
 					</div>
 				</div>
-				<div class="section-block grid-container fade-in-progressively no-padding-top no-padding-bottom bkg-grey-ultralight" data-layout-mode="masonry" data-animate-filter-duration="700" data-animate-resize data-animate-resize-duration="0">
+				<div class="section-block grid-container fade-in-progressively no-padding-top no-padding-bottom bkg-white" data-layout-mode="masonry" data-animate-filter-duration="700" data-animate-resize data-animate-resize-duration="0">
 					<div class="row">
 						<div class="column width-12">
 							<div class="row grid content-grid-3">
@@ -475,14 +597,14 @@
 				<!-- Hero Grid: House Skybox -->
 
 				<!-- Hero Grid: Apartment -->
-				<div id="heros" class="section-block no-padding-bottom bkg-grey-ultralight">
+				<div id="heros" class="section-block no-padding-bottom bkg-white">
 					<div class="row">
 						<div class="column width-12">
 							<h3 class="mb-60">Datasets: Apartments</h3>
 						</div>
 					</div>
 				</div>
-				<div class="section-block grid-container fade-in-progressively no-padding-top bkg-grey-ultralight" data-layout-mode="masonry" data-animate-filter-duration="700" data-animate-resize data-animate-resize-duration="0">
+				<div class="section-block grid-container fade-in-progressively no-padding-top bkg-white" data-layout-mode="masonry" data-animate-filter-duration="700" data-animate-resize data-animate-resize-duration="0">
 					<div class="row">
 						<div class="column width-12">
 							<div class="row grid content-grid-3">
@@ -533,9 +655,10 @@
 						<div class="column width-5 push-1">
 							<div class="feature-content">
 								<div class="feature-content-inner left center-on-mobile horizon" data-animate-in="preset:slideInUpShort;duration:900ms;delay:300ms;" data-threshold="0.6">
-									<h2 class="mb-30 color-white">How to build your own datasets</h2>
-									<p class="lead font-alt-2 color-white opacity-06">Make your own dataset with TDW virtual environments with our introductions.</p>
-									<p class="color-white opacity-06">We provide a step-by-step documentation of TDW to build your own virtual environment egocentric datasets for your visual deep learning project.</p>
+									<h2 class="mb-30 color-white">Building your own child-view database is easy! </h2>
+									<!-- <p class="lead font-alt-2 color-white opacity-06">Building your own child-view database is easy! </p> -->
+									<p class="color-white opacity-06">Want to make your own egocentric database in a TDW virtual environment to further improve visual deep learning? <br/>
+										Follow our step-by-step guide to build your own egocentric dataset in a TDW virtual environment so you can begin to investigate your own visual deep learning questions! </p>
 									<a href="https://github.com/threedworld-mit/tdw" class="button medium pill border-grey-light bkg-hover-theme color-grey-light color-hover-white fade-location" data-animate-in="preset:scaleOut;duration:900ms;delay:400ms;"
 									>View documentation</a>
 								</div>
