@@ -87,9 +87,13 @@
 									<a href="index-house-light.html">Archviz House with Lighting Conditions</a>
 								</li>
 								<li>
+									<li>
 									<a href="index-apartment.html">Apartment</a>
 								</li>
 							</ul>
+						</li>
+						<li>
+							<a href="https://pennstate.qualtrics.com/jfe/form/SV_4VqSFRybglbV59Y">Feedback Form</a>
 						</li>
 					</ul>
 				</nav>
@@ -222,7 +226,10 @@
 													</li>
 												</ul>
 											</li>
-										</ul>
+										</ul>	
+									</li>
+									<li>
+										<a href="https://pennstate.qualtrics.com/jfe/form/SV_4VqSFRybglbV59Y" style="font-size: 10pt;">Feedback Form</a>
 									</li>
 								</ul>
 							</nav>
@@ -282,15 +289,39 @@
 								<div class="feature-content-inner horizon center-on-mobile" data-animate-in="preset:slideInUpShort;duration:900ms;delay:300ms;" data-threshold="0.4">
 									<p class="MB-50">Many visual learning databases consist of millions if not billions of distinct images which are used to train algorithms and models. But these databases far exceed the standard visual exposure of a typical human toddler and yet the end result of such training even with our most advanced algorithms still falls short of human visual performance on simple classification tasks (REF Imagenet V2).  Making datasets even larger may improve performance but there are diminishing returns with increasing training size.  What is more, training on billions of images is outside of the reach of small and mid-tier research programs, which limits the ability of both industry and the scholarly community to develop better algorithms.<br/><br/>
 										In Child-view, we aim to shift the focus of deep learning toward optimizing what learning can be accomplished with small data sets that are closer in scope and size to the visual experience of a human child’s first years of life. There is much to be learned about visual learning from children, who tap into a rich source of environmental information about how their body deliberately samples information through controlled orientation of its body and senses and interactions with the world (Ballard et al 1997; Campos et al. 2000; Smith 2005).<br/><br/>
-										This method of exploration enables them to develop a robust mode of the visual world despite inhabiting an environment with very limited distributions. Many children in modern households spend nearly the first two years of their life inside one or two buildings, viewing a limited set of spaces, surfaces, faces, and objects from many directions and under a wide variety of lighting conditions. In fact, headcam data reveals that only three specific faces make up nearly all of the exposure to faces for the average child from western households in the first year of their life (Jayaraman, et al. 2015). <br/><br/>
-										Child-view mimics this visual learning environment with a spatiotemporally correlated array of images from two virtual environments.  The image sets we provide here will facilitate the development of new approaches to computer vision that involve extensive exploration of a limited environment.<br/><br/>
-										The images provided here are all generated from the ThreeDWorlds engine. You can also generate your own images by following a step-by-step tutorial provided in this website.
+										This method of exploration enables them to develop a robust mode of the visual world despite inhabiting an environment with very limited distributions. Many children in modern households spend nearly the first two years of their life inside one or two buildings, viewing a limited set of spaces, surfaces, faces, and objects from many directions and under a wide variety of lighting conditions. In fact, headcam data reveals that only three specific faces make up nearly all of the exposure to faces for the average child from western households in the first year of their life (Jayaraman, et al. 2015). <br/><br/> 
 									</p>
-									<a href="datasets.html" data-offset="-60" class="button scroll-link medium pill scroll-link border-grey-light bkg-hover-theme color-grey color-hover-white"
-										data-animate-in="preset:scaleOut;duration:900ms;delay:400ms;"
-									>View Datasets</a>
 								</div>
 							</div>
+						</div>
+					</div>
+					<div class="row flex" style="margin-top: 100px;">
+						<div class="column width-7 push-6">
+							<div class="feature-content">
+								<div class="feature-content-inner horizon center-on-mobile" data-animate-in="preset:slideInUpShort;duration:900ms;delay:300ms;" data-threshold="0.4">
+									<p class="MB-50">
+										How do people learn with such input?  It could be that perceiving within a consistent environment, in which objects persist over time and through a variety of changes of perspective, lighting condition, etc, form richer learning environments than large image sets. The ways that light is reflected, absorbed, refracted, or scattered in the physical world provides a richer set of augmentations that are based on the laws of physics. Augmentation of 2-D images cannot capture these changes because they lack the physical properties of interacting with light rays in a three-dimensional space (real or virtual).  <br/><br/>
+										It has been demonstrated that the ability to learn spatially invariant visual representations of objects is dependent on the temporal adjacency of views during an eye movement (Li & Dicarlo 2008) or exposure to temporally smooth objects (Wood & Wood 2016; Wood & Wood 2018) which would allow the visual stream to learn that different views correspond to the same object. Child-view extends this idea to movement through an environment, which extends the transformations to include changes in lighting across time and changes in perspective within a scene that can teach the learner about shadows and occlusion. The viewer uses their own perception of self-motion and time as a means to sort sensory information according to where and when it was sampled. This environmental learning process turns the statistical consistency of the world, which would be a disadvantage from a standard deep learning approach, into a crucial signal for learning about the physical properties of how light and materials interact in a fully populated visual environment.<br/><br/>  
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="column width-4 pull-8">
+							<div class="feature-image mb-mobile-50">
+								<div class="feature-image-inner center-on-mobile horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;" data-threshold="0.4">
+									<img src="images/imgdif.png" alt="Graphical abstract of Child-View Project" title="Graphical abstract of Child-View Project" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row" style="margin-top: 100px;">
+						<div class="column center">
+							<p class="mb-50">
+								Given a large set of images with spatial and temporal contiguity information, a self-supervised contrastive learning approach could use an objective function that relies on the spatiotemporal proximity of two images as a graded similarity signal of any two views. Our self-supervised algorithm assumes that training uses temporal and spatial contiguity as a proxy for similarity, rather than assessing similarity of the pixelwise content.  <br/><br/>
+								Using space and time allows us to tag images as similar regardless of their apparent content.  Instead of attempting to discern whether two images are augmented versions of the same original image, the objective function maximizes a new contrastive function according to the relative temporal and spatial separation between a key image and other images sampled from the environment. Both space and time provide partially independent sources of similarity that augment the learning process. The image sets we provide here will facilitate the development of new approaches to computer vision that allow us to learn more effectively with smaller datasets rather than building exhaustively large datasets.   <br/><br/>
+								The images provided here are all generated from the ThreeDWorlds engine.  You can also generate your own images by following a step-by-step tutorial provided in this website. <br/><br/>
+							</p>
+							<a href="datasets.html" data-offset="-60" class="button scroll-link medium pill scroll-link border-grey-light bkg-hover-theme color-grey color-hover-white"data-animate-in="preset:scaleOut;duration:900ms;delay:400ms;">View Datasets</a>
 						</div>
 					</div>
 				</section>
@@ -359,24 +390,15 @@
 				<!-- Service Section End -->
 
 				<!-- Hero 5 Section -->
-				<div class="section-block hero-5 hero-5-about-1 clear-height show-media-column-on-mobile bkg-charcoal">
-					<div class="media-column width-5">
-						<div class="hero-content">
-							<div class="hero-content-inner center">
-								<a href="https://player.vimeo.com/video/164320913?portrait=0&amp;title=0&amp;byline=0&amp;loop=1&amp;color=2d66f7" class="icon-circled icon-play medium border-white bkg-hover-theme color-white color-hover-white text-uppercase lightbox-link"></a>
-							</div>
-						</div>
-					</div>
+				<div class="section-block replicable-content bkg-grey-ultralight">
 					<div class="row">
-						<div class="column width-6 push-6">
-							<div class="hero-content split-hero-content">
-								<div class="hero-content-inner left color-white horizon" data-animate-in="preset:turnInRight;duration:1000ms;" data-threshold="0.7">
-									<h2 class="mb-50">What is self-supervised learning?</h2>
-									<p class="lead font-alt-2">Started by in New York by two guys back in early 2003 with one computer, one mouse and one big idea.</p>
-									<p>Adipisicing elit, sed do eiusmod tempor incididun. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
-									<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
-								</div>
-							</div>
+						<div class="column width-8 offset-2 center">
+							<h2 class="mb-50">What is self-supervised learning?</h2>
+						</div>
+						<div class="column width-10 offset-1 left">
+							<p class="mb-50">Recent innovations in computer vision have focused on self-supervised learning (i.e., sets of images without human-generated labels).  A common self-supervised approach is contrastive learning in which a network is trained to tell whether two given images are altered versions of the same image or different images. By forcing a network to learn that two alterations of the same image are from the same input, the network learns to build representations that correspond to the meaningful content of the image, rather than the surface properties of the pixel patterns. Self-supervised approaches use massive data sets pulled from the internet with no labels and used for training, such as MoCo (He et al., 2020), SimCLR (Chen et al., 2020), and BYOL (Grill et al., 2020). <br/><br/>
+								Self-supervised learning approaches build general-purpose vision representations that are useful for other downstream tasks, such as building an image classifier.  To do this, one first trains the deep part of the network on a large set (typically hundreds of millions to billions) of unlabeled images to build a basic set of representations using an unsupervised learning function.  The goal of such learning is to build a set of representations that map high-dimensional patterns onto lower-dimensional representations that can be used for other tasks.  In a sense, this hybrid approach of self-supervised followed by supervised learning is similar to how children learn about the visual world. Their first period of life is spent exploring without labels, and their language faculties then come online and allow them to apply labels.  
+							</p>
 						</div>
 					</div>
 				</div>
