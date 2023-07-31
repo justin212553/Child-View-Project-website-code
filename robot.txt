@@ -1,3 +1,14 @@
 User-agent: *
-Disallow: /document.html /datasets.html /404.html /500.html /about.html /index-house.html /hero-house14k.html /hero-house100k.html /index-house-light.html /hero-house-Blue.html /hero-house-Indoor.html /hero-house-Kiara.html /hero-house-Mosaic.html /hero-house-Ninomaru.html /hero-house-Royal.html /hero-house-Small.html /hero-house-Venice.html /hero-house-Whipple.html /index-apartment.html /hero-apartment14k.html /hero-apartment100k.html /video_apartment.html /video_house_skybox.html /video_house.html
+Disallow: 
+/document.html 
+/datasets.html 
+/404.html 
+/500.html 
+/about.html 
+/index-house.html
+/index-house-light.html 
+/index-apartment.html
+/video_apartment.html
+/video_house_skybox.html
+/video_house.html
 Allow: /index.html
